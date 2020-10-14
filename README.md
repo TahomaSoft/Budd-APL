@@ -5,7 +5,8 @@ See the book An APL Compiler by Timothy Budd, (C) 1988 Springer Verlag New York 
 
 Like APL\11, this code has been placed here so that it does not get lost forever.
 
-##WARNING ----- WARNING ------ WARNING ------
+WARNING ----- WARNING ------ WARNING ------
+-------------------------------------------
 
 The APL Compiler is experimental software distributed for your
 entertainment and amusement.  The following cautions should be noted:
@@ -29,7 +30,8 @@ documentation, both for the user level and for the internals (there is a
 good bit of pretty mathematics hidden in the algorithms contained herein),
 but see notes 1 and 2 (above).
 
-##RESTRICTIONS
+RESTRICTIONS
+------------
 
 Here are some of the known restrictions
 	1. laminate isn't implemented
@@ -44,7 +46,8 @@ Here are some of the known restrictions
 	6. The branch idiom -> (expression)/Label doesn't seem to work.
 	7. You cannot have an assignment statment inside of a branch.
 
-##REFERENCES
+REFERENCES
+----------
 
 L. Guibas and D. Wyatt ''Compilation and Delayed Evaluation in APL'', 
 Proceedings of the 5th POPL conference
@@ -58,7 +61,8 @@ Extensions to Grid Selector Composition and Compilation in APL
 Information Processing Letters 19 (1984) 117-123.
 (describes how the Guibas algorithms are added to the APL compiler)
 
-##INSTALLATION INSTRUCTIONS
+INSTALLATION INSTRUCTIONS
+-------------------------
 
 1. if the apl compiler is to be available to all users, copy the file
 aplc.h to /usr/include, or wherever include files are read from.
