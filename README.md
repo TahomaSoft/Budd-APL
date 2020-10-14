@@ -34,17 +34,13 @@ RESTRICTIONS
 ------------
 
 Here are some of the known restrictions
-	1. laminate isn't implemented
-	2. axis don't work with the catenate operator
-	3. over-take doesn't work, in particular the scalar extension to
-		take isn't done correctly.
-	4. Encode only works with a vector on the left (I'm still not sure
-		I understand the semantics in the larger case).
-
-	5. intra procedure analysis is incomplete, inter procedure analysis
-		is not working at the moment.
-	6. The branch idiom -> (expression)/Label doesn't seem to work.
-	7. You cannot have an assignment statment inside of a branch.
+- laminate isn't implemented
+- axis don't work with the catenate operator
+- over-take doesn't work, in particular the scalar extension to take isn't done correctly.
+- Encode only works with a vector on the left (I'm still not sure I understand the semantics in the larger case).
+- intra procedure analysis is incomplete, inter procedure analysis is not working at the moment.
+- The branch idiom -> (expression)/Label doesn't seem to work.
+- You cannot have an assignment statment inside of a branch.
 
 REFERENCES
 ----------
@@ -64,22 +60,22 @@ Information Processing Letters 19 (1984) 117-123.
 INSTALLATION INSTRUCTIONS
 -------------------------
 
-1. if the apl compiler is to be available to all users, copy the file
+- if the apl compiler is to be available to all users, copy the file
 aplc.h to /usr/include, or wherever include files are read from.
 (as distributed, it is assumed that include files will be read from the
 users area.  If the file aplc.h is moved to /usr/include, then the printf
 in line 44 of dcls.c should be modified to issue an include in the <> form,
 instead of the "" form, as per unix conventions).
 
-2. type ''make all'' to make all the sources (this will take half an hour
+- type ''make all'' to make all the sources (this will take half an hour
 or so).
 
-3. There is a hard path contained in the variable P in the shell script
+- There is a hard path contained in the variable P in the shell script
 ''aplc''.  Modify this to point to the directory containing the binary
 files created in step 2.
 
-4. Move aplc to the appropriate bin directory.
+- Move aplc to the appropriate bin directory.
 
-5. There is a test program ulam.apl, try typing ''aplc ulam.apl'', if this
+- There is a test program ulam.apl, try typing ''aplc ulam.apl'', if this
 compiles with no problems, type ''a.out'' to execute.
 
