@@ -11,10 +11,10 @@ WARNING ----- WARNING ------ WARNING ------
 The APL Compiler is experimental software distributed for your
 entertainment and amusement.  The following cautions should be noted:
 
-1. It is buggy.  I know it.  I try to fix the bugs when I find them and
+- It is buggy.  I know it.  I try to fix the bugs when I find them and
 when I have time, but often neither one nor the other happens.
 
-2. There is no support.  I try to answer reasonable questions when I have
+- There is no support.  I try to answer reasonable questions when I have
 time, but as in number 1 I often don't.
 
 Needless to say, the usual qualifications about there being no guarantees
@@ -22,7 +22,7 @@ that this software is suitable for anything at all apply.
 
 In addition, the following problems can be noted
 
-3. There is almost no documentation.  The references listed at the end of
+- There is almost no documentation.  The references listed at the end of
 this note can help some, reading the source code (like reading apl.lex to
 see what the input language is like) can help more, but in general the
 outlook is bad.  ONE OF THESE DAYS I hope to find time to write some good
